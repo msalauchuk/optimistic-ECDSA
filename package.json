@@ -1,0 +1,37 @@
+{
+  "name": "offchain-rollup-demo",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.27.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.11",
+    "chai": "^4.5.0",
+    "ethers": "^6.15.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+hhttps://github.com/solomaxim/rollup-prototypes"
+  },
+  "bugs": {
+    "url": "https://github.com/solomaxim/rollup-prototypes/issues"
+  },
+  "homepage": "https://github.com/solomaxim/rollup-prototypes#readme"
+}
